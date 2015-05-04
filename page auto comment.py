@@ -29,8 +29,8 @@ if char1=='y':
 	  time.sleep(6)
 	  
           
-          print("Complaint number:"+str(count)+" on www.facebook.com/"+str(indid).split('_')[0]+"/posts/"+str(indid).split('_')[1])	  
+          print("Comment number:"+str(count)+" on www.facebook.com/"+str(indid).split('_')[0]+"/posts/"+str(indid).split('_')[1])	  
     else: 
           print("Not that many commentable posts available. ")
 else :
-  print("No complaints made.")
+  print("No comments made.")
