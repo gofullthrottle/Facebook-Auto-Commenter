@@ -4,12 +4,12 @@ from facepy import GraphAPI
 import time
 
 
-token="CAACEdEose0cBAJfGtXJvZAUMsuGr5ZBXw4FZAozj4jHNggbymdPwWf0EQUmaaivmjcRpZAySL1qZAT9s4b0IKRrQuurMYfTZBIuvUdJZCf3ZAbiMlJZAHxCJDmJZBXGWh5uH1Cau2uuLHd9yG6AfdJpJvFFtLZBL3E6b2wcx0OlxmzylDGqwNxoWGJ1hf9l7lPYGgisrDTv6jQn5SJZCxWaZBaiO65erQM9vleNQZD"#Insert access token here.  
+token=""#Insert access token here.  
 facebook=fb.graph.api(token)
 graph1 = GraphAPI(token)
 
 
-vid=340022612868386 
+vid=1234567890  #your desired fb page id. you can get that from here - http://findmyfacebookid.com/
 query=str(vid)+"/posts?fields=id&limit=5000000000"
 r=graph1.get(query)
 
